@@ -85,7 +85,7 @@ function showNotes() {
         notesElm.style.color = 'black';
     }
     else {
-        notesElm.innerHTML = `<h4>Nonthing to Show! Use "Add a Note" section above to add Notes</h4>`;
+        notesElm.innerHTML = `<h4>Nothing to Show! Use "Add a Note" section above to add Notes</h4>`;
         notesElm.style.color = 'green';
     }
 };
@@ -133,7 +133,7 @@ search.addEventListener('input', function () {
         }
         else if(i == cardLength){
             let notesElm = document.getElementById('notes');
-            notesElm.innerHTML = `<h4>Oops! Nonthing to Show For this Search Criteria!.</h4>`;
+            notesElm.innerHTML = `<h4>Oops! Nothing to Show For this Search Criteria!.</h4>`;
             notesElm.style.color = 'green';
         }        
         else {
